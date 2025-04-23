@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "modernizr": "^3.13.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-owl-carousel": "^2.3.3",
+    "react-router-dom": "^7.5.0",
+    "react-slick": "^0.30.3",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.2.6",
+    "vite": "^6.2.5",
+    "yet-another-react-lightbox": "^3.22.0"
+  },
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+<<<<<<< HEAD
+    "@vitejs/plugin-react": "^4.3.4"
+=======
+    "@vitejs/plugin-react": "^4.3.4",
+    "connect-history-api-fallback": "^2.0.0"
+>>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
+  }
+}
