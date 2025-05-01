@@ -1,6 +1,11 @@
+React:19.1.0
+NodeJs:20.18.0
+
 # NeolifeGym Premium 🏋️
 
-**NeolifeGym Premium** is a modern, responsive gym website built with **React + Vite**, transformed from a premium HTML template. Designed to highlight gym services, classes, trainers, and more — with full component structure and client-side routing.
+**NeolifeGym Premium** is a modern, responsive gym website built with **React + Vite**,
+transformed from a premium HTML template. Designed to highlight gym services, classes, trainers,
+and more — with full component structure and client-side routing.
 
 ---
 

@@ -1,4 +1,7 @@
 {
+  "name": "neo-gym-life-premium",
+  "version": "1.0.0",
+  "author": "emirytp",
   "dependencies": {
     "modernizr": "^3.13.1",
     "react": "^19.1.0",
