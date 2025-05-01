@@ -20,11 +20,7 @@ const Header = () => {
             <li className="dropdown">
               <span>Pages</span>
               <ul className="dropdown-menu">
-<<<<<<< HEAD
-                <li><Link to="/class-timetable">Classes Timetable</Link></li>
-=======
                 <li><Link to="/classes-timetable">Classes Timetable</Link></li>
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
                 <li><Link to="/bmi-calculator">BMI Calculator</Link></li>
                 <li><Link to="/gallery">Gallery</Link></li>
                 <li><Link to="/blog">Blog</Link></li>

@@ -15,11 +15,7 @@
     "dev": "vite"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@vitejs/plugin-react": "^4.3.4"
-=======
     "@vitejs/plugin-react": "^4.3.4",
     "connect-history-api-fallback": "^2.0.0"
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
   }
 }

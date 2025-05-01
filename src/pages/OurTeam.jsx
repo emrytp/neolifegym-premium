@@ -34,56 +34,6 @@ const OurTeam = () => {
         </div>
       </section>
 
-<<<<<<< HEAD
-{/* Team Section */}
-<section className="team-section team-page spad">
-  <div className="container">
-
-    {/* Başlık ve Buton Satırı */}
-    <div className="row justify-content-between align-items-center mb-5">
-      <div className="col-lg-6">
-        <div className="section-title text-start">
-          <span>OUR TEAM</span>
-          <h2 style={{ fontSize: '34px' }}>TRAIN WITH EXPERTS</h2>
-        </div>
-      </div>
-      <div className="col-lg-3 text-lg-end text-start mt-3 mt-lg-0">
-        <a href="#" className="primary-btn">APPOINTMENT</a>
-      </div>
-    </div>
-
-    {/* Team Members */}
-    <div className="row gy-5">
-      {teamData.map((member, index) => (
-        <div className="col-lg-4 col-sm-6" key={index}>
-          <div
-            className="ts-item"
-            style={{
-              backgroundImage: `url(/assets/img/team/${member.img})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              height: '420px',
-              position: 'relative',
-            }}
-          >
-            <div className="ts_text">
-              <h4>{member.name}</h4>
-              <span>{member.role}</span>
-              <div className="tt_social">
-                <a href="#"><i className="fa fa-facebook"></i></a>
-                <a href="#"><i className="fa fa-twitter"></i></a>
-                <a href="#"><i className="fa fa-instagram"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      ))}
-    </div>
-
-  </div>
-</section>
-
-=======
       {/* Team Section */}
       <section className="team-section team-page spad">
         <div className="container">
@@ -153,7 +103,6 @@ const OurTeam = () => {
           </div>
         </div>
       </section>
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
 
       <GetInTouchSection />
       <FooterSection />

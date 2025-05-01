@@ -585,7 +585,7 @@ ol {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.);
+	background: rgba(0, 0, 0, 0);
   }
   
   .hi-text {
@@ -766,11 +766,7 @@ ol {
   }
   
 /*---------------------
-<<<<<<< HEAD
-  Our Classes Section (Scoped as .our-	class-item)
-=======
-  Our Classes Section 
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
+  Our Classes Section
 -----------------------*/
 
 .classes-section {
@@ -782,9 +778,6 @@ ol {
 	text-align: center;
 	margin-bottom: 40px;
   }
-  
-<<<<<<< HEAD
-=======
   /* Başlık ve buton hizalaması */
   .section-header {
 	display: flex;
@@ -826,8 +819,6 @@ ol {
 	background-color: #ff4800;
 	color: #fff;
   }
-  
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
   .classes-wrapper {
 	display: flex;
 	justify-content: center;
@@ -836,11 +827,7 @@ ol {
   .classes-grid {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
-<<<<<<< HEAD
-	gap: 30px;
-=======
 	gap: 35px;
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
 	max-width: 1140px;
 	width: 100%;
 	padding: 0 15px;
@@ -957,7 +944,7 @@ Registration Banner Section
 -----------------------*/
 
 .registration-banner {
-	background-image: url("/assets/img/gallery/gallery-1.jpg");
+	background-image: url("../img/gallery/gallery-1.jpg");
 	background-size: cover;
 	background-position: top center;
 	height: 450px;
@@ -1215,185 +1202,15 @@ body {
 	  width: 100%;
 	}
   }
-<<<<<<< HEAD
-/*---------------------
-  Gallery Section
------------------------*/
-
-=======
 
 /*---------------------
   Gallery Section 
 -----------------------*/
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
 .gallery-section {
 	background: #151515;
 	overflow: hidden;
 	padding: 80px 0;
   }
-  
-<<<<<<< HEAD
-  .gallery-container {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 10px;
-	justify-content: center;
-	max-width: 100%;
-	padding: 0;
-  }
-  
-  .gs-item {
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	width: calc(25% - 10px);
-	height: 300px;
-	position: relative;
-	transition: 0.3s all ease;
-  }
-  
-  .gs-item.grid-wide {
-	width: calc(50% - 90px);
-	height: 300px;
-  }
-  
-  .thumb-icon {
-	font-size: 48px;
-	color: #f36100;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	opacity: 0;
-	visibility: hidden;
-	background: rgba(0, 0, 0, 0.3);
-	transition: all 0.3s ease;
-  }
-  
-  .gs-item:hover .thumb-icon {
-	opacity: 1;
-	visibility: visible;
-  }
-  
-  /* Responsive */
-  @media (max-width: 992px) {
-	.gs-item {
-	  width: calc(50% - 10px);
-	  height: 250px;
-	}
-  
-	.gs-item.grid-wide {
-	  width: 100%;
-	  height: 350px;
-	}
-  }
-  
-  @media (max-width: 576px) {
-	.gs-item {
-	  width: 100%;
-	  height: 220px;
-	}
-  
-	.gs-item.grid-wide {
-	  height: 300px;
-	}
-  }
-/*---------------------
-  Team Section (Ortalanmış)
------------------------*/
-
-.team-section {
-	background: #151515;
-	padding: 80px 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-  }
-  
-  .team-title {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap;
-	width: 100%;
-	max-width: 1140px;
-	margin-bottom: 50px;
-	padding: 0 15px;
-	box-sizing: border-box;
-  }
-  
-  .team-title .section-title {
-	text-align: left;
-  }
-  
-  .appoinment-btn {
-	background: transparent;
-	border: 2px solid #f36100;
-	padding: 10px 22px;
-	color: #fff;
-	font-weight: 600;
-	text-transform: uppercase;
-	transition: 0.3s;
-  }
-  
-  .appoinment-btn:hover {
-	background: #f36100;
-  }
-  
-  .team-grid {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 50px;
-	justify-content: center;
-	max-width: 1140px;
-	padding: 0 15px;
-	box-sizing: border-box;
-  }
-  
-  .ts-item {
-	flex: 0 0 230px;
-	height: 450px;
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	overflow: hidden;
-	border: 3px solid #151515; 
-	transition: all 0.3s ease;
-  }
-  
-  .ts_text {
-	padding: 40px 0 60px;
-	text-align: center;
-	background: #0a0a0a;
-	border-top: 4px solid #464646;
-	position: absolute;
-	left: 0;
-	bottom: -250px;
-	width: 100%;
-	transition: all 0.3s;
-	transform: skewY(-5deg);
-  }
-  
-  .ts-item:hover .ts_text {
-	bottom: -35px;
-  }
-  
-  .ts_text h4 {
-	color: #fff;
-	font-weight: 600;
-	margin-bottom: 14px;
-  }
-  
-  .ts_text span {
-	font-size: 12px;
-	font-weight: 700;
-	color: #aaaaaa;
-	text-transform: uppercase;
-=======
   .gallery-grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -1467,44 +1284,29 @@ body {
 	background: none;
 	border: none;
 	cursor: pointer;
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
   }
   
   /* Responsive */
   @media (max-width: 992px) {
-<<<<<<< HEAD
-	.ts-item {
-	  width: calc(50% - 30px);
-=======
 	.gallery-grid {
 	  grid-template-columns: repeat(2, 1fr);
 	}
 	.gallery-item.grid-wide {
 	  grid-column: span 2;
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
 	}
   }
   
   @media (max-width: 576px) {
-<<<<<<< HEAD
-	.ts-item {
-	  width: 100%;
-=======
 	.gallery-grid {
 	  grid-template-columns: 1fr;
 	}
 	.gallery-item.grid-wide {
 	  grid-column: span 1;
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
 	}
   }
   
 /*---------------------
-<<<<<<< HEAD
-  Get Touch Section (Final Fix)
-=======
-  Get Touch Section 
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
+  Get Touch Section
 -----------------------*/
 
 .gettouch-section {
@@ -1816,80 +1618,14 @@ body {
 }
 
 /*---------------------
-<<<<<<< HEAD
-  Testimonial Section
------------------------*/
-.testimonial-section {
-=======
   Our Team Section
 -----------------------*/
 .team-section {
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
+
 	background: #151515;
 	padding: 80px 0;
   }
-  
-<<<<<<< HEAD
-  .testimonial-section .section-title h2,
-  .testimonial-section .section-title span {
-	color: #fff;
-  }
-  
-  .ts-item {
-	.ts-item {
-		max-width: 700px;
-		margin: 0 auto;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		min-height: 350px; 
-	  }
-  }
-  
-  .ti-pic {
-	margin: 0 auto 25px;
-	width: 140px;
-	height: 140px;
-	border-radius: 50%;
-	overflow: hidden;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-  }
-  
-  .ti-pic img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	border-radius: 50%;
-  }
-  
-  .ti-text p {
-	color: #fefefe;
-	letter-spacing: 1px;
-	margin-bottom: 20px;
-	font-size: 15px;
-	line-height: 1.7;
-  }
-  
-  .ti-text h5 {
-	color: #ffffff;
-	font-weight: 600;
-	text-transform: uppercase;
-	margin-bottom: 8px;
-	font-size: 16px;
-  }
-  
-  .tt-rating i {
-	font-size: 14px;
-	color: #d49d09;
-	margin: 0 1px;
-  }
-  
 
-=======
   .team-title {
 	display: flex;
 	justify-content: space-between;
@@ -1993,8 +1729,7 @@ body {
 	  margin-top: 15px;
 	}
   }
-  
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
+
 /*---------------------
   Services Section
 -----------------------*/
@@ -2102,21 +1837,16 @@ body {
 
 /* Tablonun dış kapsayıcısını hizala */
 .class-timetable.details-timetable {
-	margin-left: 100;
-	margin-right: 1;
+	margin-left: 100px;
+	margin-right: 1px;
 	width: 100%;
 	max-width: 870px;
   }
   
   /* Tabloyu sabitle */
   .class-timetable.details-timetable table {
-<<<<<<< HEAD
-	width: 100%;
-	table-layout: fixed;
-=======
 	display: inline-block;
 	width: 1145px;
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
   }
 
 /* 🔧 EK: Timetable başlığı arası boşluk */
@@ -2231,21 +1961,12 @@ body {
 }
 
 .class-timetable table thead tr th {
-<<<<<<< HEAD
-	font-size: 14px;
-	color: #ffffff;
-	background: #f36100;
-	border-right: 1px solid #363636;
-	padding: 15px 0;
-	font-weight: 400;
-=======
 	background-color: #ff5e13;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
 	padding: 15px;
 	border: none;
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
 }
 
 .class-timetable table tbody tr td {
@@ -3869,9 +3590,4 @@ body {
 	.search-model-form input {
 		font-size: 28px;
 	}
-<<<<<<< HEAD
 }
-=======
-}
-  
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)

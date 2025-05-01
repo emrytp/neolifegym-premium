@@ -2,75 +2,6 @@ import React from "react";
 
 const OurClassesSection = () => {
   return (
-<<<<<<< HEAD
-    <section className="classes-section">
-      <div className="section-title">
-        <span>OUR CLASSES</span>
-        <h2>WHAT WE CAN OFFER</h2>
-      </div>
-
-      <div className="classes-wrapper">
-        <div className="classes-grid">
-          {/* Üstteki 3 küçük kart */}
-          <div className="our-class-item">
-            <div className="ci-pic">
-              <img src="/assets/img/classes/class-1.jpg" alt="Weightlifting" />
-            </div>
-            <div className="ci-text">
-              <span>STRENGTH</span>
-              <h5>Weightlifting</h5>
-              <a href="#">→</a>
-            </div>
-          </div>
-
-          <div className="our-class-item">
-            <div className="ci-pic">
-              <img src="/assets/img/classes/class-2.jpg" alt="Indoor Cycling" />
-            </div>
-            <div className="ci-text">
-              <span>CARDIO</span>
-              <h5>Indoor Cycling</h5>
-              <a href="#">→</a>
-            </div>
-          </div>
-
-          <div className="our-class-item">
-            <div className="ci-pic">
-              <img src="/assets/img/classes/class-3.jpg" alt="Kettlebell Power" />
-            </div>
-            <div className="ci-text">
-              <span>STRENGTH</span>
-              <h5>Kettlebell Power</h5>
-              <a href="#">→</a>
-            </div>
-          </div>
-
-          {/* Alttaki 2 büyük kart */}
-          <div className="our-class-item large">
-            <div className="ci-pic">
-              <img src="/assets/img/classes/class-4.jpg" alt="Indoor Cycling 2" />
-            </div>
-            <div className="ci-text">
-              <span>CARDIO</span>
-              <h5>Indoor Cycling</h5>
-              <a href="#">→</a>
-            </div>
-          </div>
-
-          <div className="our-class-item large">
-            <div className="ci-pic">
-              <img src="/assets/img/classes/class-5.jpg" alt="Boxing" />
-            </div>
-            <div className="ci-text">
-              <span>TRAINING</span>
-              <h5>Boxing</h5>
-              <a href="#">→</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-=======
     <>
       <style>
         {`
@@ -298,12 +229,7 @@ const OurClassesSection = () => {
         </div>
       </section>
     </>
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
   );
 };
 
 export default OurClassesSection;
-<<<<<<< HEAD
-=======
-
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)

@@ -27,50 +27,31 @@ const TeamSection = () => {
   return (
     <section className="team-section spad">
       <div className="container">
-<<<<<<< HEAD
-        <div className="team-title">
-          <div className="section-title">
-            <span>Our Team</span>
-            <h2>TRAIN WITH EXPERTS</h2>
-          </div>
-          <a href="#" className="primary-btn btn-normal appoinment-btn">appointment</a>
-=======
         <div className="d-flex justify-content-between align-items-center mb-5 team-title">
           <div className="section-title text-start">
             <span>Our Team</span>
             <h2>TRAIN WITH EXPERTS</h2>
           </div>
           <a href="#" className="primary-btn btn-normal appoinment-btn">APPOINTMENT</a>
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
         </div>
 
         <Slider {...settings} className="ts-slider">
           {[1, 2, 3, 4, 5, 6].map((num) => (
-<<<<<<< HEAD
-            <div className="ts-item" key={num}>
-              <div
-               className="ts-item set-bg"
-               style={{ backgroundImage: `url("/assets/img/team/team-${num}.jpg")` }}
-=======
             <div className="px-2" key={num}>
               <div
                 className="ts-item"
                 style={{
                   backgroundImage: `url("/assets/img/team/team-${num}.jpg")`,
                 }}
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
               >
                 <div className="ts_text">
                   <h4>Athart Rachel</h4>
                   <span>Gym Trainer</span>
-<<<<<<< HEAD
-=======
                   <div className="tt_social">
                     <a href="#"><i className="fa fa-facebook"></i></a>
                     <a href="#"><i className="fa fa-twitter"></i></a>
                     <a href="#"><i className="fa fa-instagram"></i></a>
                   </div>
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
                 </div>
               </div>
             </div>

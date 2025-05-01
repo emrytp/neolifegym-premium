@@ -71,7 +71,7 @@ const FooterSection = () => {
             <div className="copyright-text">
               <p>
                 Copyright &copy;{new Date().getFullYear()} All rights reserved |
-                Template by <a href="https://colorlib.com" target="_blank" rel="noreferrer">Colorlib</a>
+                Template by Emrytp
               </p>
             </div>
           </div>

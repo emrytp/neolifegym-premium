@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React from 'react';
-=======
 import React, { useState } from 'react';
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
 
 const images = [
   '/assets/img/gallery/gallery-1.jpg',
@@ -14,23 +10,6 @@ const images = [
 ];
 
 const GallerySection = () => {
-<<<<<<< HEAD
-  return (
-    <section className="gallery-section">
-      <div className="gallery-container">
-        {images.map((src, index) => (
-          <div
-            key={index}
-            className={`gs-item ${index === 0 || index === 5 ? 'grid-wide' : ''}`}
-            style={{ backgroundImage: `url(${src})` }}
-          >
-            <a href={src} className="thumb-icon">
-              <i className="fa fa-picture-o"></i>
-            </a>
-          </div>
-        ))}
-      </div>
-=======
   const [selectedImage, setSelectedImage] = useState(null);
 
   return (
@@ -70,7 +49,6 @@ const GallerySection = () => {
           </button>
         </div>
       )}
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
     </section>
   );
 };

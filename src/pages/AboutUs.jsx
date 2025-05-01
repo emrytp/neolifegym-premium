@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-// src/pages/AboutUs.jsx
-=======
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
 import React from 'react';
 import Slider from 'react-slick';
 
@@ -26,8 +22,6 @@ const AboutUs = () => {
     arrows: false,
   };
 
-<<<<<<< HEAD
-=======
   // 💪 Barları buradan yönet
   const progressBars = [
     { label: "Body building", percentage: 80 },
@@ -35,7 +29,6 @@ const AboutUs = () => {
     { label: "Fitness", percentage: 75 },
   ];
 
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
   return (
     <>
       {/* Breadcrumb */}
@@ -82,16 +75,6 @@ const AboutUs = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis ipsum suspendisse ultrices gravida.
                   </p>
                 </div>
-<<<<<<< HEAD
-                <div className="about-bar">
-                  {["Body building", "Training", "Fitness"].map((text, i) => (
-                    <div className="ab-item" key={i}>
-                      <p>{text}</p>
-                      <div className="barfiller">
-                        <span className="fill" data-percentage="80"></span>
-                        <div className="tipWrap">
-                          <span className="tip"></span>
-=======
 
                 {/* 💥 Progress Bars */}
                 <div className="about-bar">
@@ -111,16 +94,11 @@ const AboutUs = () => {
                         ></span>
                         <div className="tipWrap">
                           <span className="tip" style={{ color: "#fff", fontSize: "12px", marginLeft: "5px" }}>{bar.percentage}%</span>
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
                         </div>
                       </div>
                     </div>
                   ))}
                 </div>
-<<<<<<< HEAD
-=======
-
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
               </div>
             </div>
           </div>

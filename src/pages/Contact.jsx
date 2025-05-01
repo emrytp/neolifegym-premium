@@ -53,14 +53,6 @@ const Contact = () => {
 
             {/* Sağ Form */}
             <div className="col-lg-6">
-<<<<<<< HEAD
-              <form className="leave-comment">
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <input type="text" placeholder="Website" />
-                <textarea placeholder="Comment"></textarea>
-                <button type="submit">Submit</button>
-=======
               <form
                 className="leave-comment"
                 style={{
@@ -138,30 +130,12 @@ const Contact = () => {
                 >
                   Submit
                 </button>
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
               </form>
             </div>
           </div>
         </div>
 
         {/* Harita */}
-<<<<<<< HEAD
-{/* Harita */}
-<div className="map" style={{ width: '80%',  margin: '0 auto', paddingTop: '40px' }}>
-  <iframe
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48345.73873450982!2d-74.25313739834978!3d40.768703043594115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3ae84a380f257%3A0x6909c635aeb94ec5!2sEast%20Orange%2C%20NJ%2C%20USA!5e0!3m2!1str!2str!4v1684920215601!5m2!1str!2str"
-    height="450"
-    style={{ border: 0, width: '100%' }}
-    allowFullScreen=""
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-    title="Google Maps"
-  ></iframe>
-</div>
-
-      </section>
-      <GetInTouchSection />     
-=======
         <div className="map" style={{ width: '57%', margin: '0 auto', paddingTop: '40px' }}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48345.73873450982!2d-74.25313739834978!3d40.768703043594115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3ae84a380f257%3A0x6909c635aeb94ec5!2sEast%20Orange%2C%20NJ%2C%20USA!5e0!3m2!1str!2str!4v1684920215601!5m2!1str!2str"
@@ -176,7 +150,6 @@ const Contact = () => {
       </section>
 
       <GetInTouchSection />
->>>>>>> 247e312 (Completed final layout and fixed remaining bugs-m)
       <FooterSection />
     </>
   );
